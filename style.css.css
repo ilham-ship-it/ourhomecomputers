@@ -1,0 +1,176 @@
+body{
+    background-image: url('pic3.jpg');
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.vv{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+#head{
+    background-color: yellow;
+}
+
+#head a{
+    text-decoration: none;
+    font-size: 16px;
+    color: brown;
+    text-transform: uppercase;
+    float: right;
+    padding: 0 20px 0 20px;
+}
+
+#head .current{
+        color: orange;
+      }
+
+#head h1{
+    text-transform: uppercase;
+    float: left;
+}
+
+#blue{
+    background-color: yellow;
+}
+
+#blue h2{
+    float: left;
+    color: blue;
+    text-transform: uppercase;
+}
+
+#blue form{
+    float: right;
+    padding-top: 10px;
+}
+
+#blue button{
+    height: 30px;
+    width: 80px;
+    color: green;
+    background-color: pink;
+    float: right;
+    border-radius: 15px;
+}
+
+#blue input[type= "email"]{
+    height: 30px;
+    width: 250px;
+    border-radius: 7px;
+    padding-bottom: 9px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 15px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-left: 60%;
+    text-decoration-color: yellow;
+    align-items: center;
+
+}
+.container h2{
+    color: red;
+    text-align: center;
+    font-size: 2rm;
+}
+
+.container a{
+    text-align: center;
+}
+.form p{
+    color:red;
+}
+input{
+    margin: 5px 0px;
+    height: 25px;
+    width: 60%;
+    padding: 7px;
+    border: none;
+    border-radius: 50px;
+    justify-content: center;
+}
+button{
+    height: 35px;
+    margin: 5px 0px;
+    width: 60px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+}
+button:hover{
+    background-color: gray;
+    color: skyblue;
+
+}
+body{
+    
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+#box{
+    
+    align-content: center;
+    width: 118px;
+    height: 40px;
+    background-color: hsl(0, 100%, 50%);
+    font-size: 34px;
+    text-align: center;
+    border-radius: 20%;
+    border: 2px slid hsl(60, 100%, 50%);
+    animation-name: colorchange;
+    animation-duration: loop;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange{
+    0%{background-color: hsl(0, 100%, 50%);}
+    20%{background-color: hsl(78, 100%, 50%);}
+    40%{background-color: hsl(224, 100%, 50%);}
+    50%{background-color: hsl(41, 100%, 50%);}
+    60%{background-color: hsl(323, 100%, 50%);}
+    70%{background-color: hsla(180, 100%, 50%, 0.39);}
+    80%{background-color: hsla(350, 100%, 50%, 0.226);}
+    90%{background-color: hsla(320, 100%, 50%, 0.13);}
+    100%{background-color: hsl(187, 100%, 50%);}
+    120%{background-color: hsla(295, 100%, 50%, 0.062);}
+    130%{background-color: #cc00ff;}
+    140%{background-color: rgb(145, 255, 0);}
+    150%{background-color: hsl(76, 100%, 50%);}
+    160%{background-color: hsl(187, 100%, 50%);}
+    170%{background-color: hsl(27, 100%, 50%);}
+    180%{background-color: hsl(298, 100%, 50%);}
+    190%{background-color: hsl(187, 100%, 50%);}
+    200%{background-color: hsla(187, 100%, 50%, 0);}
+    210%{background-color: hsla(27, 100%, 50%, 0);}
+    220%{background-color: hsl(187, 100%, 50%);}
+    230%{background-color: hsl(143, 100%, 50%);}
+    240%{background-color: hsl(187, 100%, 50%);}
+}
+    
+
+    
